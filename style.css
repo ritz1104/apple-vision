@@ -685,14 +685,3 @@ footer {
     color: #ffffff;
   }
 
-  /* Responsive adjustments */
-  @media (min-width: 768px) {
-    .footer-bottom {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-
-    .footer-bottom p {
-      margin-bottom: 0;
-    }
-}
