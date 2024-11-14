@@ -406,14 +406,14 @@ body {
     height: 90%;
     width: 45%;
     position: relative;
-    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg);
+    background-image: url(./glass_top__k3b8lzqd1l2m_medium.jpg);
     background-size: cover;
 }
 .right14{
     height: 90%;
     width: 45%;
     position: relative;
-    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large.jpg);
+    background-image: url(./glass_side__gm4agomrwl2e_medium\ \(1\).jpg);
     background-size: cover;
 }
 #page15{
@@ -516,6 +516,9 @@ body {
     max-width: 100vw;
     max-height: 100vw;
 }
+
+
+
 #page19{
     display: flex;
     align-items: center;
@@ -542,6 +545,7 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    
 }
 #center-page20{
     position: absolute;
@@ -552,7 +556,8 @@ body {
     color: #fff;
 }
 #center-page20>h1{
-    margin-bottom: 1.7vw;
+    margin-bottom: 0.2vw;
+    
 }
 #page21{
     position: relative;
@@ -607,4 +612,87 @@ body {
     width: 100%;
     object-fit: cover;
     opacity:0
+}
+
+footer {
+    background-color: #000;
+    color: #a0a0a5;
+    padding: 40px 20px;
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .footer-column h3 {
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+
+  .footer-column ul {
+    list-style: none;
+  }
+
+  .footer-column li {
+    margin-bottom: 10px;
+  }
+
+  .footer-column a {
+    color: #a0a0a5;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s;
+  }
+
+  .footer-column a:hover {
+    color: #ffffff;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid #3a3a3c;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .footer-bottom p {
+    margin-bottom: 15px;
+  }
+
+  .footer-bottom .bottom-links {
+    display: flex;
+    gap: 15px;
+  }
+
+  .footer-bottom .bottom-links a {
+    color: #a0a0a5;
+    text-decoration: none;
+  }
+
+  .footer-bottom .bottom-links a:hover {
+    color: #ffffff;
+  }
+
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .footer-bottom {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .footer-bottom p {
+      margin-bottom: 0;
+    }
 }
